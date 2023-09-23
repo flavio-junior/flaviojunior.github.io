@@ -1,0 +1,37 @@
+@font-face {
+   font-family: 'JetBrains Mono';
+   src: url("../fonts/JetBrainsMono-Medium.woff2") format('woff2'),
+      url("../fonts/JetBrainsMono-Medium.woff") format("woff");
+}
+
+body, #home {
+   font-family: 'JetBrains Mono';
+   margin: 0 auto;
+   height: 100%;
+}
+
+#nav-bar-container {
+   font-size: 24px;
+   text-transform: capitalize;
+}
+
+#nav-bar-container a {
+   text-decoration: none;
+}
+
+#nav-bar-container ul li {
+   float: right;
+   list-style: none;
+   margin-right: 48px;
+   padding: 16px;
+}
+
+#logo {
+   float: left;
+   margin-left: 48px;
+   padding: 16px;
+}
+
+#home {
+   display: block;
+}
