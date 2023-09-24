@@ -5,8 +5,6 @@
         <title>Página inicial - flavio junior</title>
         <link rel="icon" type="image/x-icon" href="imagens/fivicon.png">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
-            <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-            <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script src="https://kit.fontawesome.com/905427e025.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -58,15 +56,19 @@
                         </a>
                     </div>
                 </div>
+                
                 <div id="card-end">
-                    <label class="mdc-text-field mdc-text-field--filled">
-                        <span class="mdc-text-field__ripple"></span>
-                        <span class="mdc-floating-label" id="my-label-id">Currency Value</span>
-                        <span class="mdc-text-field__affix mdc-text-field__affix--prefix">$</span>
-                        <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
-                        <span class="mdc-text-field__affix mdc-text-field__affix--suffix">.00</span>
-                        <span class="mdc-line-ripple"></span>
-                      </label>
+                    <div id="card-form">
+                        <form>
+                            <label>Nome</label>
+                            <input type="text" id="name" placeholder="Digite seu nome">
+                            <label for="surname">Sobrenome</label>
+                            <input type="text" id="surname" placeholder="Digite seu sobrenome">
+                            <label for="message">Mensagem</label>
+                            <textarea type="textarea" id="message" rows="5" placeholder="Digite sua mensagem"></textarea>
+                            <input type="submit" value="Enviar Mensagem">
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
