@@ -4,26 +4,33 @@
       url("../fonts/JetBrainsMono-Medium.woff") format("woff");
 }
 
-body, #home {
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
    font-family: 'JetBrains Mono';
-   margin: 0 auto;
-   height: 100%;
 }
 
 #nav-bar-container {
    font-size: 24px;
    text-transform: capitalize;
+   position: fixed;
+   width: 100%;
+   background: #000;
 }
 
 #nav-bar-container a {
    text-decoration: none;
+   color: white;
 }
 
 #nav-bar-container ul li {
    float: right;
    list-style: none;
    margin-right: 48px;
-   padding: 16px;
+   padding: 16px 16px;
 }
 
 #logo {
@@ -33,5 +40,18 @@ body, #home {
 }
 
 #home {
-   display: block;
+   clear: both;
+}
+
+footer {
+   border-top: 3px solid black;
+   margin: 48px;
+}
+
+footer div {
+   font-size: 18px;
+   margin: 48px;
+   padding: 16px;
+   text-align: center;
+   text-transform: capitalize;
 }
