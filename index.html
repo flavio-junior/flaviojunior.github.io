@@ -5,6 +5,8 @@
         <title>Página inicial - flavio junior</title>
         <link rel="icon" type="image/x-icon" href="imagens/fivicon.png">
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+            <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+            <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script src="https://kit.fontawesome.com/905427e025.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -38,24 +40,35 @@
             </div>
         </section>
 
-        <section class="sections">
-            <div>
-                <h1>Quem é Flávio Júnior?</h1>
-                <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>    
-            </div>
-        </section>
+        <section id="section-contact">
+            <div id="card-contact">
+                <div id="card-start">
+                    <div id="card-networking">
+                        <i id="icon-net" class="fa-brands fa-battle-net fa-10x"></i>
 
-        <section id="networking">
-            <h1>Faça parte da minhas redes sociais</h1>
-            <a href="https://github.com/flavio-junior">
-                <i class="fa-brands fa-square-github fa-3x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/flavio-junior-748939202">
-                <i class="fa-brands fa-linkedin fa-3x"></i>
-            </a>
-            <a href="https://medium.com/@flaviojunior.ofc">
-                <i class="fa-brands fa-medium fa-3x"></i>
-            </a>
+                        <h1>conecta-se comigo!</h1>
+                        <a href="https://github.com/flavio-junior" target="_blank" rel="noreferrer noopener">
+                            <i class="fa-brands fa-square-github fa-3x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/flavio-junior-748939202" target="_blank" rel="noreferrer noopener">
+                            <i class="fa-brands fa-linkedin fa-3x"></i>
+                        </a>
+                        <a href="https://medium.com/@flaviojunior.ofc" target="_blank" rel="noreferrer noopener">
+                            <i class="fa-brands fa-medium fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="card-end">
+                    <label class="mdc-text-field mdc-text-field--filled">
+                        <span class="mdc-text-field__ripple"></span>
+                        <span class="mdc-floating-label" id="my-label-id">Currency Value</span>
+                        <span class="mdc-text-field__affix mdc-text-field__affix--prefix">$</span>
+                        <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+                        <span class="mdc-text-field__affix mdc-text-field__affix--suffix">.00</span>
+                        <span class="mdc-line-ripple"></span>
+                      </label>
+                </div>
+            </div>
         </section>
 
         <footer>
