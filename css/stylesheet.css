@@ -43,8 +43,27 @@ body {
    clear: both;
 }
 
+#networking {
+   border-left: 3px solid black;
+   margin: 48px;
+   padding-left: 16px;
+   text-align: start;
+}
+
+#networking h1 {
+   font-size: 18px;
+   padding: 12px 12px 6px 0;
+}
+
+#networking a {
+   text-decoration: none;
+}
+
+#networking i {
+   padding: 6px 12px 12px 0;
+}
+
 footer {
-   border-top: 3px solid black;
    margin: 48px;
 }
 
