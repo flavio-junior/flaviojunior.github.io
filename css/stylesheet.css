@@ -9,6 +9,10 @@
    padding: 0;
 }
 
+html, body {
+   height: 100%;
+}
+
 body {
    font-family: 'JetBrains Mono';
 }
@@ -39,8 +43,9 @@ body {
    padding: 16px;
 }
 
-#home {
-   clear: both;
+.sections {
+   padding: 65px;
+   height: 100%;
 }
 
 #networking {
