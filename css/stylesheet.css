@@ -27,14 +27,13 @@ body {
 }
 
 #nav-bar-container a {
+   margin-right: 48px;
    text-decoration: none;
    color: white;
 }
 
-#nav-bar-container ul li {
+#nav-bar-container ul {
    float: right;
-   list-style: none;
-   margin-right: 48px;
    padding: 16px 16px;
 }
 
@@ -42,6 +41,65 @@ body {
    float: left;
    margin-left: 48px;
    padding: 16px;
+}
+
+#intro {
+   height: 100%;
+}
+
+#biography {
+   background: #ccc;
+   padding: 64px 64px 64px 64px;
+}
+
+#biography h1 {
+   padding-top: 24px;
+}
+
+#biography p {
+   padding-top: 24px;
+   text-align: justify;
+}
+
+#intro-content {
+   background: #ccc;
+   height: 100%;
+   padding-top: 64px;
+   padding-left: 64px;
+}
+
+#intro-content-history {
+   float: left;
+   height: 100%;
+   padding-top: 32px;
+   width: 60%;
+}
+
+#intro-content-history a {
+   background: black;
+   border-radius: 36px;
+   color: white;
+   display: block;
+   font-size: 18px;
+   font-style: italic;
+   margin-top: 24px;
+   padding: 16px;
+   margin-top: 32px;
+   text-align: center;
+   text-decoration: none;
+   text-transform: lowercase;
+}
+
+#intro-content-history p {
+   margin-top: 24px;
+   text-align: justify;
+}
+
+#intro-content-image {
+   background: url(../imagens/fivicon.png) no-repeat right;
+   float: right;
+   height: 100%;
+   width: 40%; 
 }
 
 .sections {
