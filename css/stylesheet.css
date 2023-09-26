@@ -44,6 +44,35 @@ body {
    padding: 16px;
 }
 
+#intro {
+   height: 100%;
+}
+
+#intro-content {
+   background: #ccc;
+   height: 100%;
+   padding-top: 64px;
+   padding-left: 64px;
+}
+
+#intro-content-history {
+   float: left;
+   height: 100%;
+   width: 60%;
+}
+
+#intro-content-history p {
+   margin-top: 8px;
+   text-align: justify;
+}
+
+#intro-content-image {
+   background: url(../imagens/fivicon.png) no-repeat right;
+   float: right;
+   height: 100%;
+   width: 40%; 
+}
+
 .sections {
    padding: 64px;
    height: 100%;
