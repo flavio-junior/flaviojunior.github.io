@@ -47,6 +47,20 @@ body {
    height: 100%;
 }
 
+#biography {
+   background: #ccc;
+   padding: 64px 64px 64px 64px;
+}
+
+#biography h1 {
+   padding-top: 24px;
+}
+
+#biography p {
+   padding-top: 24px;
+   text-align: justify;
+}
+
 #intro-content {
    background: #ccc;
    height: 100%;
