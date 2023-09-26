@@ -27,14 +27,13 @@ body {
 }
 
 #nav-bar-container a {
+   margin-right: 48px;
    text-decoration: none;
    color: white;
 }
 
-#nav-bar-container ul li {
+#nav-bar-container ul {
    float: right;
-   list-style: none;
-   margin-right: 48px;
    padding: 16px 16px;
 }
 
@@ -58,11 +57,27 @@ body {
 #intro-content-history {
    float: left;
    height: 100%;
+   padding-top: 32px;
    width: 60%;
 }
 
+#intro-content-history a {
+   background: black;
+   border-radius: 36px;
+   color: white;
+   display: block;
+   font-size: 18px;
+   font-style: italic;
+   margin-top: 24px;
+   padding: 16px;
+   margin-top: 32px;
+   text-align: center;
+   text-decoration: none;
+   text-transform: lowercase;
+}
+
 #intro-content-history p {
-   margin-top: 8px;
+   margin-top: 24px;
    text-align: justify;
 }
 
