@@ -102,9 +102,46 @@ body {
    width: 40%; 
 }
 
-.sections {
-   padding: 64px;
+#skills {
    height: 100%;
+   padding: 64px;
+}
+
+#skills img {
+   height: 80px;
+   border: 3px solid black;
+   border-radius: 8px;
+   margin-top: 8px;
+   padding: 8px;
+   width: 80px;
+}
+
+#skills .skill-img-border-one {
+   border-color: #DD4814;
+}
+
+#skills .skill-img-border-two {
+   border-color: #5FB832;
+}
+
+#informations-skills {
+   margin-top: 16px;
+}
+
+#informations-skills h2 {
+   border-left: 24px solid black;
+   text-transform: capitalize;
+   display: inline;
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
+#informations-skills #skill-item-one {
+   border-color: #DD4814;
+}
+
+#informations-skills #skill-item-two {
+   border-color: #5FB832;
 }
 
 #section-contact {
